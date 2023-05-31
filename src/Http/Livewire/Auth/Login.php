@@ -111,6 +111,13 @@ class Login extends FilamentLogin
 
             return null;
         }
+
+        if(auth()->user()->email_verified_at === null) {
+            $this->addError($this->loginColumn,__('filament.not_verified'));
+            auth()->logout();
+            return null;
+        }
+
         event(new LoginSuccess(Filament::auth()->user()));
 
         return app(LoginResponse::class);
