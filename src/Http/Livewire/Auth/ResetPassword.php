@@ -13,6 +13,7 @@ use Illuminate\Support\Str;
 use JeffGreco13\FilamentBreezy\FilamentBreezy;
 use Livewire\Component;
 use Closure;
+use App\Models\User;
 
 class ResetPassword extends Component implements Forms\Contracts\HasForms
 {
