@@ -41,6 +41,7 @@ return [
         "notification_error" => "Error resetting password. Please request a new password reset.",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Check your inbox for instructions!",
+        "email_not_found" => "We can't find a user with that email address.",
     ],
     "verification" => [
         "title" => "Verify email",

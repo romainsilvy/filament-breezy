@@ -41,6 +41,7 @@ return [
         "notification_error" => "Lỗi khi đặt lại mật khẩu. Vui lòng yêu cầu đặt lại mật khẩu mới.",
         "notification_error_link_text" => "Thử lại",
         "notification_success" => "Kiểm tra hộp thư đến của bạn để biết hướng dẫn!",
+        "email_not_found" => "Không tìm thấy tài khoản với địa chỉ email này.",
     ],
     "verification" => [
         "title" => "Xác nhận email",

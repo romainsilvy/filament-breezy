@@ -36,6 +36,7 @@ return [
         "notification_error" => "Error: harap coba beberapa saat lagi.",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Periksa inbox Anda untuk instruksi selanjutnya!",
+        "email_not_found" => "Kami tidak dapat menemukan pengguna dengan alamat email tersebut.",
     ],
     "verification" => [
         "title" => "Verify email",

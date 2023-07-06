@@ -41,6 +41,7 @@ return [
         "notification_error" => "Σφάλμα κατά την επαναφορά του κωδικού πρόσβασης. Προσπαθήστε ξανά.",
         "notification_error_link_text"=>"Προσπαθήστε ξανά",
         "notification_success" => "Ελέγξτε το email σας για οδηγίες!",
+        "email_not_found" => "Δεν βρέθηκε λογαριασμός με αυτό το email.",
     ],
     "verification" => [
         "title" => "Επαλήθευση email",

@@ -41,6 +41,7 @@ return [
         "notification_error" => "Fehler beim Zurücksetzen des Passworts. Bitte fordern Sie ein neues Passwort an.",
         "notification_error_link_text"=>"Erneut versuchen",
         "notification_success" => "Prüfen Sie Ihren E-Mail auf Anweisungen!",
+        "email_not_found" => "Wir können keinen Benutzer mit dieser E-Mail-Adresse finden.",
     ],
     "verification" => [
         "title" => "E-Mail verifizieren",

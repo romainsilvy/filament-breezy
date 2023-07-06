@@ -41,6 +41,7 @@ return [
         "notification_error" => "Errore nel ripristino della password. Effettua di nuovo il ripristino.",
         "notification_error_link_text" => "Prova di nuovo",
         "notification_success" => "Controlla la tua casella di posta per ulteriori istruzioni!",
+        "email_not_found" => "Non riusciamo a trovare un utente con questo indirizzo email.",
     ],
     "verification" => [
         "title" => "Verifica email",

@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
 use JeffGreco13\FilamentBreezy\FilamentBreezy;
 use Livewire\Component;
+use Closure;
 
 class ResetPassword extends Component implements Forms\Contracts\HasForms
 {
@@ -55,7 +56,13 @@ class ResetPassword extends Component implements Forms\Contracts\HasForms
                     ->label(__("filament-breezy::default.fields.email"))
                     ->required()
                     ->email()
-                    ->exists(table: config('filament-breezy.user_model')),
+                    ->rules([
+                        function () {
+                            return function (string $attribute, $value, Closure $fail) {
+                                User::where('email', $value)->exists() ?: $fail(__("filament-breezy::default.reset_password.email_not_found"));
+                            };
+                        },
+                    ])
             ];
         }
     }

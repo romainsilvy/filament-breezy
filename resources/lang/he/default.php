@@ -40,7 +40,8 @@ return [
         ],
         "notification_error" => "שגיאה באיפוס הסיסמה. אנא בקש שחזור סיסמה חדשה.",
         "notification_error_link_text" => "נסה שוב",
-        "notification_success" => " להוראות בדוק את תיבת הדואר הנכנס שלך!"
+        "notification_success" => " להוראות בדוק את תיבת הדואר הנכנס שלך!",
+        "email_not_found" => "לא נמצא חשבון עם כתובת הדואר האלקטרוני הזו.",
     ],
     "verification" => [
         "title" => "אימות דואר אלקטרוני",

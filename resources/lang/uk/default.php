@@ -36,6 +36,7 @@ return [
         "notification_error" => "Помилка: повторіть спробу пізніше.",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Перевірте свою поштову скриньку для отримання вказівок!",
+        "email_not_found" => "Ми не можемо знайти користувача з такою адресою електронної пошти.",
     ],
     "verification" => [
         "title" => "Перевірити електронну пошту",

@@ -41,6 +41,7 @@ return [
         "notification_error" => "Error: probeer het later nogmaals.",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Controleer je e-mail voor instructies!",
+        "email_not_found" => "We kunnen geen gebruiker met dat e-mailadres vinden.",
     ],
     "verification" => [
         "title" => "E-mail bevestigen",

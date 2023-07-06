@@ -41,6 +41,7 @@ return [
         "notification_error" => "Hata: lütfen daha sonra tekrar deneyin",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Talimatlar için gelen kutunuzu kontrol edin!",
+        "email_not_found" => "Bu e-posta adresiyle bir hesap bulunamadı.",
     ],
     "verification" => [
         "title" => "E-posta doğrulama",

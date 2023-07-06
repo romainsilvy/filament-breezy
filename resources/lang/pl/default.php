@@ -41,6 +41,7 @@ return [
         "notification_error" => "Wystąpił błąd podczas resetowania hasła. Spróbuj ponownie.",
         "notification_error_link_text"=>"Spróbuj ponownie",
         "notification_success" => "Sprawdź swoją skrzynkę pocztową, aby uzyskać instrukcje dotyczące resetowania hasła.",
+        "email_not_found" => "Nie znaleziono konta z tym adresem email.",
     ],
     "verification" => [
         "title" => "Zweryfikuj adres email",

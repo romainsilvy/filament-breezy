@@ -42,6 +42,7 @@ return [
         "notification_error" => "Erro: Por favor, tente novamente mais tarde.",
         "notification_error_link_text" => "Try Again",
         "notification_success" => "Verifique sua caixa de entrada para instruções!",
+        "email_not_found" => "Não conseguimos encontrar um usuário com esse endereço de e-mail.",
     ],
     "verification" => [
         "title" => "Verificar e-mail",

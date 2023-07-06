@@ -41,6 +41,7 @@ return [
         "notification_error" => "Ralat semasa menetapkan semula kata laluan. Sila minta tetapan semula kata laluan baharu.",
         "notification_error_link_text"=>"Cuba lagi",
         "notification_success" => "Semak peti masuk anda untuk mendapatkan arahan!",
+        "email_not_found" => "Kami tidak dapat mencari pengguna dengan alamat e-mel ini.",
     ],
     "verification" => [
         "title" => "Mengesahkan E-mel",

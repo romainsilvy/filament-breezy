@@ -34,8 +34,9 @@ return [
             "label" => "Valider",
         ],
         "notification_error" => "Erreur : veuillez réessayer plus tard.",
-        "notification_error_link_text"=>"Try Again",
+        "notification_error_link_text"=>"Réessayer",
         "notification_success" => "Vérifiez votre boîte de réception pour les instructions !",
+        "email_not_found" => "Aucun utilisateur avec cette adresse e-mail n'a été trouvé.",
     ],
     "verification" => [
         "title" => "Vérifier les courriels",

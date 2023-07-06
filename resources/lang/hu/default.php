@@ -41,6 +41,7 @@ return [
         "notification_error" => "Hiba: próbálja újra később.",
         "notification_error_link_text"=>"Try Again",
         "notification_success" => "Tekintse meg beérkezett üzeneteit az utasításokért!",
+        "email_not_found" => "Nem található felhasználó ezzel az e-mail-címmel.",
     ],
     "verification" => [
         "title" => "E-mail megerősítés",
